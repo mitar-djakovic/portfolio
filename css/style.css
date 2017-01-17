@@ -310,10 +310,6 @@ a {
 .img {
     width: 280px;
     height: 250px;
-    background-color: #fff;
-    background: url(../img/ja.jpg);
-    background-position: center;
-    background-size: cover;
     margin-left: 170px;
 }
 
@@ -525,6 +521,44 @@ a {
 
     .title {
         font-size: 25px;
+    }
+    /* About */
+
+    .about-text {
+        font-size: 18px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .about-parts-one {
+        width: 100%;
+        display: block;
+    }
+
+    .about-parts-two {
+        width: 100%;
+        display: block;
+    }
+
+    .img {
+        width: 280px;
+        margin: 0px auto;
+    }
+    /* Portfolio */
+
+    .part-phone img {
+        display: none;
+        width: 100%;
+    }
+
+    .part {
+        width: 100%;
+        display: block;
+    }
+
+    .part img {
+        width: 100%;
+        display: none;
     }
     /* Footer */
 
