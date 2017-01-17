@@ -517,15 +517,21 @@ a {
     }
 
     .header-content h1 {
-        font-size: 30px;
+        font-size: 48px;
+        line-height: 1.2;
     }
 
     .header-content h2 {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     .title {
         font-size: 30px;
+    }
+
+    .findout {
+        font-size: 18px;
+        margin-top: 150px;
     }
     /* About */
 
@@ -544,6 +550,17 @@ a {
         width: 100%;
         display: block;
     }
+
+    .about-parts-two h2 {
+        font-size: 35px;
+        margin-left: 20px;
+    }
+
+    .about-parts-two h3 {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
 
     .img {
         width: 280px;
@@ -564,6 +581,30 @@ a {
     .part img {
         width: 100%;
         display: none;
+    }
+
+    .part h2 {
+        font-size: 34px;
+        line-height: 1.4;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .part h3 {
+        font-size: 24px;
+        line-height: 1.4;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .part p {
+        font-size: 20px;
+        line-height: 1.2;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .portfolio-block {
@@ -615,6 +656,10 @@ a {
         font-size: 30px;
     }
 
+    .social-links {
+        margin-top: 50px;
+    }
+    
     .list li {
         font-size: 30px;
         margin-top: 15px;
