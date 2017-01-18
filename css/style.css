@@ -530,7 +530,7 @@ a {
     }
 
     .findout {
-        font-size: 18px;
+        font-size: 28px;
         margin-top: 150px;
     }
     /* About */
@@ -662,7 +662,7 @@ a {
     }
 
     .btn {
-        width: 90px;
+        justify-content: center;
         text-align: center;
     }
 
