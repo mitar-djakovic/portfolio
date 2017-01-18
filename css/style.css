@@ -530,7 +530,7 @@ a {
     }
 
     .findout {
-        font-size: 28px;
+        font-size: 38px;
         margin-top: 150px;
     }
     /* About */
@@ -648,27 +648,7 @@ a {
         padding-top: 30px;
     }
 
-    .bonus-flex {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-flex-flow: row wrap;
-        justify-content: space-around;
-    }
 
-    .btn {
-        justify-content: center;
-        text-align: center;
-    }
-
-    .swaywater-text {
-
-    }
     /* Footer */
 
     .footer-container {
