@@ -553,9 +553,9 @@ a {
     }
 
     .list li {
-        display: inline;
+        display: block;
         font-size: 25px;
-        margin: 0px 20px;
+        margin: 10px 20px;
     }
 
     .block-right h2 {
