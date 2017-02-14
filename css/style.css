@@ -539,10 +539,6 @@ a {
         margin: 20px 0px;
     }
 
-    #footer {
-        margin-top: 100px;
-    }
-
     .footer-title {
         font-size: 40px;
     }
@@ -562,6 +558,7 @@ a {
         margin: 10px 20px;
     }
 
+    .block-left h2,
     .block-right h2 {
         font-size: 34px;
         margin-top: 25px;
@@ -569,12 +566,14 @@ a {
         margin-left: 10px;
     }
 
+    .block-left h3,
     .block-right h3 {
         font-size: 20px;
         margin-top: 10px;
         margin-left: 10px;
     }
 
+    .block-left p,
     .block-right p {
         font-size: 15px;
         word-spacing: 2px;
