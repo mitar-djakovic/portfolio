@@ -436,6 +436,7 @@ a {
     color: #1F7BE2;
 }
 
+.block-left h2,
 .block-right h2 {
     font-size: 44px;
     margin-top: 55px;
@@ -443,12 +444,14 @@ a {
     margin-left: 10px;
 }
 
+.block-left h3,
 .block-right h3 {
     font-size: 30px;
     margin-top: 10px;
     margin-left: 10px;
 }
 
+.block-left p,
 .block-right p {
     font-size: 20px;
     word-spacing: 2px;
@@ -468,6 +471,7 @@ a {
     font-family: 'Overpass', sans-serif;
     text-align: center;
     color: #fff;
+    clear: both;
 }
 
 .footer-container {
