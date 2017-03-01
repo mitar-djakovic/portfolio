@@ -1,213 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- CSS -->
-    <link href="css/style.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <title>Mitar Djakovic - Frontend developer</title>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Overpass:300,400,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
+
 </head>
-<body>
-    <nav id="cd-vertical-nav">
-        <ul>
-            <li>
-                <a href="#header" data-number="1">
-                    <span class="cd-dot"></span>
-                    <span class="cd-label">Intro</span>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <span class="light"></span> MĐ
                 </a>
-            </li>
-            <li>
-                <a href="#about" data-number="2">
-                    <span class="cd-dot"></span>
-                    <span class="cd-label">About</span>
-                </a>
-            </li>
-            <li>
-                <a href="#portfolio" data-number="3">
-                    <span class="cd-dot"></span>
-                    <span class="cd-label">Portfolio</span>
-                </a>
-            </li>
-            <li>
-                <a href="#footer" data-number="4">
-                    <span class="cd-dot"></span>
-                    <span class="cd-label">Contact</span>
-                </a>
-            </li>
-        </ul>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Download</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
     </nav>
 
-    <section id="header" class="cd-section">
-        <div class="container">
-            <div class="header-content">
-                <h1>Hello, I am Mitar</h1>
-                <h2>Frontend developer from Serbia</h2>
-                <div class="findout"><a href="#about"><i class="fa fa-angle-double-down"></i></a></div>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Hello, I am Mitar</h1>
+                        <p class="intro-text">Frontend developer from Serbia</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-        </div> 
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="profile-img"></div>
+                <h2>About Me</h2>
+                <p>I have strong passion for web developing and love learning new techniques and keeping up to date with modern design trends. Have knowledge of HTML, CSS, Bootstrap, JavaScrip,jQuery, WordPress and little bit of Joomla.Most of the day I spent learning and practicing, to achieve perfection in web development.</p>
+                <p>Rest of my free time I try to spend on few activities. One of them is listening music andplaying guitar. Mostly rock and heavy metal. <br>For the record, <a href="https://www.imotorhead.com/" target="_blank">Motorhead</a> rule \m/ <br>Also I enjoy in sport activity, mostly in martial arts and some extreme sports and from time to time I play football with friends.</p>
+            </div>
+        </div>
     </section>
 
-    <section id="about" class="cd-section">
-        <div class="container">
-            <div class="about-container">
-                <div class="profile-img">
-                </div>
-                <div class="title">
-                    <h2>About me</h2>
-                    <div class="underline"></div>
-                </div>
-                <div class="about-text">
-                    <p>I have strong passion for web developing and love learning new techniques <br>and keeping up to date with modern design trends.<br> Have knowledge of HTML, CSS, Bootstrap, JavaScrip,jQuery, WordPress<br> and little bit of Joomla.<br>Most of the day I spent learning and practicing,<br> to achieve perfection in web development. <br>Rest of my free time I try to spend on few activities. <br>One of them is listening music andplaying guitar. Mostly rock and heavy metal.<br> For the record, <a href="https://www.imotorhead.com/" target="_blank">Motorhead</a> rule \m/ <br> Also I enjoy in sport activity, mostly in martial arts and some extreme sports<br> and from time to time I play football with friends.</p>
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Download CV</h2>
+                    <p>You can see and download my CV.</p>
+                    <a href="" class="btn btn-default btn-lg">Visit Download Page</a>
                 </div>
             </div>
-        </div> 
-    </section>
-        
-    <section id="portfolio" class="cd-section">
-        <div class="container">
-            <div class="portfolio-container">
-                <div class="title">
-                    <h2>Portfolio</h2>
-                    <div class="underline"></div>
-                </div>
-                <div class="portfolio">
-                    <div class="protfolio-block">
-                        <div class="block block-left">
-                            <figure class="project">
-                                <img src="img/helimaster.jpg" />
-                                    <figcaption>
-                                        <h3>Helimaster</h3>
-                                        <h5>Find out more</h5>
-                                        <div class="btn">
-                                            <a href="http://www.helimasterserbia.rs/en/home/" target="_blank"><h6>Demo</h6></a>
-                                        </div>
-                                    </figcaption>    
-                            </figure>
-                        </div>
-                        <div class="block block-left">
-                            <h2>Helimaster</h2>
-                            <p>Web site for helicopter school from Belgrade.</p>
-                            <p>Web site still in development</p>
-                            <h3>Skills: HTML,CSS,WordPress</h3>
-                        </div>
-                    </div>
-                    <div class="protfolio-block">
-                        <div class="block block-left">
-                            <figure class="project">
-                                <img src="img/yq6fku-oele-elke-burgin.jpg" />
-                                    <figcaption>
-                                        <h3>Open weather app</h3>
-                                        <h5>Find out more</h5>
-                                        <div class="btn">
-                                            <a href="https://roker93.github.io/openweather_app/" target="_blank"><h6>Demo</h6></a>
-                                            <a href="https://github.com/roker93/openweather_app" target="_blank"><h6>Code</h6></a>
-                                        </div>
-                                    </figcaption>    
-                            </figure>
-                        </div>
-                        <div class="block block-right">
-                            <h2>Open weather app</h2>
-                            <p>Simple application showing world-wide 7 day weather forecast based on user geolocation and/or user search input.</p>
-                            <p>Collaboration with <a href="https://rudic-i.github.io/portfolio/" target="_blank">Ivana Rudić</a></p>
-                            <h3>Skills: HTML,CSS,JavaScript</h3>
-                        </div>
-                    </div>
-                    <div class="protfolio-block">
-                        <div class="block block-left">
-                            <figure class="project">
-                                <img src="img/flavors-hero.jpg" alt="sample87" />
-                                    <figcaption>
-                                        <h3>Swaywater</h3>
-                                        <h5>Find out more</h5>
-                                        <div class="btn">
-                                            <a href="https://roker93.github.io/startit-sway-test/" target="_blank"><h6>Demo</h6></a>
-                                            <a href="https://github.com/roker93/startit-sway-test" target="_blank"><h6>Code</h6></a>
-                                        </div>
-                                    </figcaption> 
-                            </figure>
-                        </div>
-                        <div class="block two block-right">
-                            <h2>Swaywater</h2>
-                            <p>Copy/reproduction of the main page of <a href="http://swaywater.com/" target="_blank">Swaywater</a> for practice purpose.</p>
-                            <h3>Skills: HTML,CSS,JavaScript</h3>
-                        </div>
-                    </div>
-                    <div class="protfolio-block">
-                        <div class="block block-left">
-                            <figure class="project">
-                                <img src="img/startups-home-back.jpg" alt="sample87" />
-                                    <figcaption>
-                                        <h3>Startup Turkey</h3>
-                                        <h5>Find out more</h5>
-                                        <div class="btn">
-                                            <a href="https://roker93.github.io/startit-startupturkey-test/" target="_blank"><h6>Demo</h6></a>
-                                            <a href="https://github.com/roker93/startit-startupturkey-test" target="_blank"><h6>Code</h6></a>
-                                        </div>
-                                    </figcaption>
-                            </figure>
-                        </div>
-                        <div class="block block-right">
-                            <h2>Startup Turkey</h2>
-                            <p>Copy/reproduction of the main page of <a href="http://www.startupturkey.com/" target="_blank">Startup Turkey </a> for practice purpose.</p>
-                            <h3>Skills: HTML,CSS,JavaScript</h3>
-                        </div>
-                    </div>
-                    <div class="protfolio-block">
-                        <div class="block block-left">
-                            <figure class="project">
-                                <img src="img/diwanee-cover.png" />
-                                    <figcaption>
-                                        <h3>Diwanee</h3>
-                                        <h5>Find out more</h5>
-                                        <div class="btn">
-                                            <a href="https://roker93.github.io/diwanee-test/" target="_blank"><h6>Demo</h6></a>
-                                            <a href="https://github.com/roker93/diwanee-test" target="_blank"><h6>Code</h6></a>
-                                        </div>
-                                    </figcaption>    
-                            </figure>
-                        </div>
-                        <div class="block block-right">
-                            <h2>Diwanee</h2>
-                            <p>Simple test assignment</p>
-                            <h3>Skills: HTML,CSS,JavaScript</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
+        </div>
     </section>
 
-    <section id="footer" class="cd-section">
-        <div class="container">
-            <div class="footer-container">
-                <div class="footer-title">
-                    <h3>Say Hello</h3>
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container-fluid">
+            <h2>Portfolio</h2>
+            <p>You can see some of my projects.</p>
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="block">
+                        <figure class="project">
+                            <img src="img/step0003.jpg" class="img-rsp"/>
+                            <figcaption>
+                                <h3>Helimaster</h3>
+                                <h5>Find out more</h5>
+                                <div class="btn">
+                                    <a href="http://www.helimasterserbia.rs/en/home/" target="_blank"><h6>Website</h6></a>
+                                </div>
+                            </figcaption>    
+                        </figure>
+                    </div>
                 </div>
-                <div class="social-list">
-                    <ul class="list">
-                        <li><a href="https://www.facebook.com/mitar.djakovic.7" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://rs.linkedin.com/in/mitar-djakovic-77490ab5" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="mailto:mitar-djakovic2401993@hotmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a></li>
-                        <li><a href="http://codepen.io/roker2401993" target="_blank"><i class="fa fa-codepen"></i></a></li>
-                    </ul>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="block">
+                        <figure class="project">
+                            <img src="img/step0004.jpg" class="img-rsp"/>
+                            <figcaption>
+                                <h3>Open weather app</h3>
+                                <h5>Find out more</h5>
+                                <div class="btn">
+                                    <a href="https://roker93.github.io/openweather_app/" target="_blank"><h6>Demo</h6></a>
+                                    <a href="https://github.com/roker93/openweather_app" target="_blank"><h6>Code</h6></a>
+                                </div>
+                            </figcaption>    
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="block">
+                        <figure class="project">
+                            <img src="img/step0001.jpg" class="img-rsp"/>
+                            <figcaption>
+                                <h3>Swaywater</h3>
+                                <h5>Find out more</h5>
+                                <div class="btn">
+                                    <a href="https://roker93.github.io/startit-sway-test/" target="_blank"><h6>Demo</h6></a>
+                                    <a href="https://github.com/roker93/startit-sway-test" target="_blank"><h6>Code</h6></a>
+                                </div>
+                            </figcaption>   
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="block">
+                        <figure class="project">
+                            <img src="img/step0002.jpg"class="img-rsp"/>
+                            <figcaption>
+                                <h3>Startup Turkey</h3>
+                                <h5>Find out more</h5>
+                                <div class="btn">
+                                    <a href="https://roker93.github.io/startit-startupturkey-test/" target="_blank"><h6>Demo</h6></a>
+                                    <a href="https://github.com/roker93/startit-startupturkey-test" target="_blank"><h6>Code</h6></a>
+                                </div>
+                            </figcaption>    
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="block">
+                        <figure class="project">
+                            <img src="img/diwanee-cover.png" class="img-rsp"/>
+                            <figcaption>
+                                <h3>Diwanee</h3>
+                                <h5>Find out more</h5>
+                                <div class="btn">
+                                    <a href="https://roker93.github.io/diwanee-test/" target="_blank"><h6>Demo</h6></a>
+                                    <a href="https://github.com/roker93/diwanee-test" target="_blank"><h6>Code</h6></a>
+                                </div>
+                            </figcaption>    
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="block">
+                        <figure class="project">
+                            <img src="img/com.jpg" class="img-rsp"/>
+                            <figcaption>
+                                <h3>Comming soon</h3>
+                                <h5>Find out more</h5>
+                                <div class="btn">
+                                    <a href="" target="_blank"><h6>Demo</h6></a>
+                                    <a href="" target="_blank"><h6>Code</h6></a>
+                                </div>
+                            </figcaption>    
+                        </figure>
+                    </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Me</h2>
+                <p>Feel free to email about any kind of question, or to just say hello!</p>
+                <p><a href="mailto:mitar-djakovic2401993@hotmail.com">mitar-djakovic2401993@hotmail.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Mitar Djakovic 2016</p>
+        </div>
+    </footer>
 
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="vendor/jquery/jquery.js"></script>
 
-    <!-- Main JS -->
-    <script src="js/main.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.min.js"></script>
+
 </body>
 </html>
