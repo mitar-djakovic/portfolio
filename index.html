@@ -1,168 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Mitar Djakovic - Web Developer</title>
+    <title>Mitar Djakovic, Frontend developer</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Font Awesome -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-    <!-- Style CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
     <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker|Raleway|Roboto" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
 </head>
-<body>
-	<!-- Particles -->
-	<div id="nyz-bg"></div>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-	<div id="header">
-		<div class="container">
-			<div class="row">
-				<div class="header-info text-center">
-					<h1>Hello, I am Mitar</h1>
-					<p>Frontend developer from Serbia</p>
-					<!--<p><i class="fa fa-angle-down" aria-hidden="true"></i></p>-->
-					<div class="arrow-container">
-						<a href="#about">
-							<svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      							<g id="prev" transform="translate(8.500000, 8.500000) scale(-1, 1) translate(-8.500000, -8.500000)">
-          							<polygon class="arrow" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
-          							<polygon class="arrow-fixed" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
-          							<path d="M-1.48029737e-15,0.56157424 L-1.48029737e-15,16.1929159 L9.708,8.33860465 L-2.66453526e-15,0.56157424 L-1.48029737e-15,0.56157424 Z M1.33333333,3.30246869 L7.62533333,8.34246869 L1.33333333,13.4327013 L1.33333333,3.30246869 L1.33333333,3.30246869 Z"></path>
-      							</g>
-  							</svg>
-  						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <span class="light"></span> MĐ
+                </a>
+            </div>
 
-	<div id="about">
-		<div class="container">
-			<div class="row text-center">
-				<h3>About</h3>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-lg-offset-2 col-sm-6 profile-img"></div>
-				<div class="col-lg-6 col-sm-6 profile-text">
-					<p>I am Mitar Djakovic <br> Frontend developer from Serbia</p>
-				</div>
-			</div>
-			<div class="row about-info text-center ">
-				<p>I am 24 year old self-educated Frontend Developer, with a huge passion for digital craftsmanship.I love learning new skills and keeping up to date with modern design trends. Most of the day I spent learning and practicing, to achieve perfection in web development. Right now I am looking for <span>internship</span> or maybe <span>junior position</span>. Rest of my free time I try to spend on few activities. One of them is listening music and playing guitar. Mostly rock and heavy metal. <br>For the record, Motorhead rule \m/ <br> Also I enjoy in sport activity, mostly in martial arts and some extreme sports and from time to time I play football with friends.</p>
-			</div>
-		</div>
-	</div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Download</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-	<!-- Download Section -->
-    <section id="download">
-    	
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Hello, I am Mitar</h1>
+                        <p class="intro-text">Frontend developer from Serbia</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="profile-img"></div>
+                <h2>About Me</h2>
+                <p>I have strong passion for web developing and love learning new techniques and keeping up to date with modern design trends. Have knowledge of HTML, CSS, Bootstrap, JavaScrip,jQuery, WordPress and little bit of Joomla.Most of the day I spent learning and practicing, to achieve perfection in web development.</p>
+                <p>Rest of my free time I try to spend on few activities. One of them is listening music andplaying guitar. Mostly rock and heavy metal. <br>For the record, <a href="https://www.imotorhead.com/" target="_blank">Motorhead</a> rule \m/ <br>Also I enjoy in sport activity, mostly in martial arts and some extreme sports and from time to time I play football with friends.</p>
+            </div>
+        </div>
     </section>
 
-    <!-- Portfolio -->
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Download CV</h2>
+                    <p>You can see and download my CV.</p>
+                    <a href="" class="btn btn-default btn-lg">Visit Download Page</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
     <section id="portfolio">
-    	<div class="container">
-    		<div class="row text-center">
-				<h3>Portfolio</h3>
-			</div>
-    		<div class="row">
-    			<div class="project-one">
-    				<div class="col-lg-6 col-sm-6 block block-one">
-    					<figure class="project">
+        <div class="container-fluid">
+            <h2>Portfolio</h2>
+            <p>You can see some of my projects.</p>
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="block">
+                        <figure class="project">
                             <img src="img/step0003.jpg" class="img-rsp"/>
                             <figcaption>
+                                <h3>Helimaster</h3>
+                                <h5>Find out more</h5>
                                 <div class="btn">
                                     <a href="http://www.helimasterserbia.rs/en/home/" target="_blank"><h6>Website</h6></a>
                                 </div>
                             </figcaption>    
                         </figure>
-    				</div>
-    				<div class="col-lg-6 col-sm-6 block-text">
-    					<h4>Helimaster</h4>
-                       	<p>In production !</p>
-    				</div>
-    			</div>
-    		</div>
-    		<div class="row">
-    			<div class="project-two">
-    				<div class="col-lg-6 col-sm-6 block-text">
-                        <h4>Minimal Theme</h4>
-    					<p>Copy/reproduction</p>
-    				</div>
-    				<div class="col-lg-6 col-sm-6 block block-two">
-    					<figure class="project">
-                            <img src="img/step0002.jpg" class="img-rsp"/>
-                            <figcaption>
-                                <div class="btn">
-                                    <a href="https://mitar-djakovic.github.io/minimal-theme/" target="_blank"><h6>Demo</h6></a>
-                                    <a href="https://github.com/mitar-djakovic/minimal-theme" target="_blank"><h6>Code</h6></a>
-                                </div>
-                            </figcaption>   
-                        </figure>
-    				</div>
-    			</div>
-    		</div>
-    		<div class="row">
-    			<div class="project-one">
-    				<div class="col-lg-6 col-sm-6 block block-three">
-    					<figure class="project">
-                            <img src="img/step0001.jpg" class="img-rsp"/>
-                            <figcaption>
-                                <div class="btn">
-                                    <a href="https://roker93.github.io/startit-sway-test/" target="_blank"><h6>Demo</h6></a>
-                                    <a href="https://github.com/roker93/startit-sway-test" target="_blank"><h6>Code</h6></a>
-                                </div>
-                            </figcaption>   
-                        </figure>
-    				</div>
-    				<div class="col-lg-6 col-sm-6 block-text">
-    					<h4>Swaywater</h4>
-    					<p>Copy/reproduction</p>
-    				</div>
-    			</div>
-    		</div>
-    		<div class="row">
-    			<div class="project-two">
-    				<div class="col-lg-6 col-sm-6 block-text">
-    					<h4>Open weather app</h4>
-                        <p>Showing world-wide weather</p>
-    				</div>
-    				<div class="col-lg-6 col-sm-6 block block-four">
-    					<figure class="project">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="block">
+                        <figure class="project">
                             <img src="img/step0004.jpg" class="img-rsp"/>
                             <figcaption>
+                                <h3>Open weather app</h3>
+                                <h5>Find out more</h5>
                                 <div class="btn">
                                     <a href="https://roker93.github.io/openweather_app/" target="_blank"><h6>Demo</h6></a>
                                     <a href="https://github.com/roker93/openweather_app" target="_blank"><h6>Code</h6></a>
                                 </div>
                             </figcaption>    
                         </figure>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="block">
+                        <figure class="project">
+                            <img src="img/step0001.jpg" class="img-rsp"/>
+                            <figcaption>
+                                <h3>Swaywater</h3>
+                                <h5>Find out more</h5>
+                                <div class="btn">
+                                    <a href="https://roker93.github.io/startit-sway-test/" target="_blank"><h6>Demo</h6></a>
+                                    <a href="https://github.com/roker93/startit-sway-test" target="_blank"><h6>Code</h6></a>
+                                </div>
+                            </figcaption>   
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="block">
+                        <figure class="project">
+                            <img src="img/step0002.jpg"class="img-rsp"/>
+                            <figcaption>
+                                <h3>Minimal Theme</h3>
+                                <h5>Find out more</h5>
+                                <div class="btn">
+                                    <a href="https://mitar-djakovic.github.io/minimal-theme/" target="_blank"><h6>Demo</h6></a>
+                                    <a href="https://github.com/mitar-djakovic/minimal-theme" target="_blank"><h6>Code</h6></a>
+                                </div>
+                            </figcaption>    
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="block">
+                        <figure class="project">
+                            <img src="img/diwanee-cover.png" class="img-rsp"/>
+                            <figcaption>
+                                <h3>Diwanee</h3>
+                                <h5>Find out more</h5>
+                                <div class="btn">
+                                    <a href="https://roker93.github.io/diwanee-test/" target="_blank"><h6>Demo</h6></a>
+                                    <a href="https://github.com/roker93/diwanee-test" target="_blank"><h6>Code</h6></a>
+                                </div>
+                            </figcaption>    
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="block">
+                        <figure class="project">
+                            <img src="img/com.jpg" class="img-rsp"/>
+                            <figcaption>
+                                <h3>Comming soon</h3>
+                                <h5>Find out more</h5>
+                                <div class="btn">
+                                    <a href="" target="_blank"><h6>Demo</h6></a>
+                                    <a href="" target="_blank"><h6>Code</h6></a>
+                                </div>
+                            </figcaption>    
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Me</h2>
+                <p>Feel free to email about any kind of question, or to just say hello!</p>
+                <p><a href="mailto:mitar-djakovic2401993@hotmail.com">mitar-djakovic2401993@hotmail.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-	<!-- Particles JS -->
-    <script src="js/particles.js"></script>
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Mitar Djakovic 2016</p>
+        </div>
+    </footer>
 
-	<!-- jQuery -->
+    <!-- jQuery -->
     <script src="vendor/jquery/jquery.js"></script>
 
-    <!-- Site JavaScript -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- JS -->
     <script src="js/main.js"></script>
+
 </body>
 </html>
+
